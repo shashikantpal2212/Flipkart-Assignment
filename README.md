@@ -37,7 +37,7 @@ public class flipcarte2e {
 		//
 		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 
-		// Invoking the Flipkart webapplication URL
+		// Launching the Flipkart webapplication URL
 		driver.get("https://www.flipkart.com");
 
 		// Creating Action class
